@@ -15,7 +15,7 @@ public class DateService {
         } else if ("today-iso".equals(dateFormat)) {
             System.out.println(currentDateIso.getCurrentDateIso(date));
         } else {
-            System.out.println("Введена не верная команда");
+            System.out.println("Введена неверная команда");
         }
     }
 }
